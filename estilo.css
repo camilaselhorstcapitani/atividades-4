@@ -2,25 +2,33 @@
 body,html{
     padding: 20px;
     margin: 5px;
-
 }
 
 
 .conteudo{
-    height: 100vh;
+    align-content: space-around;
+    height: 300px;
     flex-wrap: wrap;
     justify-content: space-around;
     display:flex;
     flex-direction: row;
-    background-color: rgb(173, 226, 217);
+    background-color: silver;
 }
 
 
 .card{
     width: 200px;
     height: 200px;
-    background-color: rgb(198, 166, 235);
-    
+    background-color: yellow;
+    margin: 5px;
+
 }
 
-
+.centralizado{
+    display: flex;
+    flex-direction :line;
+    justify-content : center;
+    justify-items : center;
+    align-items : center;
+    align-content : center;  
+}
